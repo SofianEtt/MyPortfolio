@@ -1,0 +1,42 @@
+.hero img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin: 20px 170px;
+}
+
+
+.hero-content p{
+    font-size: 20px;
+}
+
+.hero-content h1{
+    font-size: 40px;
+}
+
+.job{
+    color: grey; /* Changer la couleur pour mettre en avant le nom du poste */
+}
+.hi{
+    font-size: 25px;
+}
+
+.hero-mywork {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 40px;
+    background: #00008B;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+}
