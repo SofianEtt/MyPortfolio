@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import githubLogo from '/home/sofia/Documents/React/Portofolio/myporto/src/assets/GitHub_Logo.png'
-const Navbar = () =>{
+const Navbar = () => {
     return (
         <div className='navbar'>
             <ul className="nav-menu">
@@ -11,7 +11,9 @@ const Navbar = () =>{
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
-            <img className='githubLogo'src={githubLogo} alt=''/>
+            <a href='https://github.com/SofianEtt'>
+                <img className='githubLogo' src={githubLogo} alt='mygithub' />
+            </a>
         </div>
     )
 }

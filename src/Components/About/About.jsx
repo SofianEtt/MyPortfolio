@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import profile_img from '../../assets/sofian.jpg'
+import github_img from '../../assets/github-mark.png'
 
 const About = () => {
   return (
@@ -10,12 +11,29 @@ const About = () => {
       </div>
       <div className="about-section">
         <div className="about-left">
-            <img src={profile_img} alt=''></img>
+          <img src={profile_img} alt=''></img>
         </div>
         <div className="about-right">
           <div className="about-para">
             <p>Passionné par le développement web et toujours en quête de nouveaux défis, je mets mes compétences au service de projets créatifs et techniques. Curieux, rigoureux et attentif aux détails, j’aime concevoir des interfaces intuitives et performantes, tout en explorant les dernières technologies du web.</p>
             <p>Au fil de mes expériences, j’ai eu l’occasion de travailler sur des projets variés, allant du site vitrine au webapp plus complexe, en m’impliquant aussi bien sur le front-end que sur le back-end. J’accorde une grande importance à l’expérience utilisateur, à la qualité du code et à la collaboration.</p>
+            <div className="button-link">
+              <div className="github-link">
+                <a href='https://github.com/SofianEtt'> <img src={github_img} alt=''></img></a>
+              </div>
+              <div className="github-link">
+                <a href='https://github.com/SofianEtt'> <img src={github_img} alt=''></img></a>
+              </div>
+              <div className="github-link">
+                <a href='https://github.com/SofianEtt'> <img src={github_img} alt=''></img></a>
+              </div>
+            </div>
+          </div>
+          <div className="about-skills">
+            <p>Back-end</p>
+            <p>Base de données</p>
+            <p>IA</p>
+            <p>Data </p>
           </div>
         </div>
       </div>

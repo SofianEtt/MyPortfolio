@@ -1,4 +1,49 @@
 .about-left img{
     width: 230px;
     height: 300px;
+    border-radius: 10%;
+    padding-left: 10px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 170px;
+}
+
+.about-title{
+    position: relative;
+}
+
+.about-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.about-section{
+    display: flex;
+    gap: 80px;
+    font-size: 20px
+}
+
+.github-link img{
+    display: inline-block;
+    filter: brightness(0) invert(1);
+    margin-right: auto;
+    margin-left: auto;
+    height: 1.5em;
+    width: 1.5em;
+}
+.github-link {
+    background: #00008B;
+    border-radius: 10px;
+    display: inline-flex;      /* S'adapte à la largeur du contenu */
+    align-items: center;
+    justify-content: center;
+    padding: 0.05em 0.5em;      /* Un peu d'espace autour du contenu */
+    gap: 0.5em;                /* Espace entre l'icône et le texte */
 }
